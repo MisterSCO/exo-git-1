@@ -16,7 +16,19 @@
             <a href="./contact.html">contact</a>
         </nav>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <form method="POST" action="post.php">
+          <fieldset>
+            <div class="form-group">
+                <label for="subject">subject</label>
+                <input type="text" id="subject" name="subject" required minlength="2" maxlength="30">
+            </div>
+            <div class="form-group">
+                <label for="content">content</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+          </fieldset>
+    </main>
     <footer class="footer">
         <p>Formation Développeur Web - &copy;
             <a href="https://veroniquecuomo.fr/support/">Véronique CUOMO</a>
