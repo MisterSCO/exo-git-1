@@ -27,3 +27,7 @@ nav a {
     margin: 0 25px;
     color: blue;
 }
+
+header img {
+    height: 50px;
+}
